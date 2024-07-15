@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lora", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 198, 198);
+    color: white;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+.stopwatch{
+    background-color: rgba(5, 5, 5, 0.952);
+    padding: 22px 25px;
+    border-radius: 12px;
+   
+}
+.timer{
+    font-size:50px;
+    font-weight: 600;
+}
+.buttons{
+    margin-top: 20px;
+}
+.btn{
+    padding: 12px 24px;
+    border: none;
+    margin-inline: 12px;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    border: 1.4px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+    background: none;
+    font-size: 20px;
+}
+#red{
+    background-color: rgb(225, 0, 0);
+}
+#green{
+background-color: rgb(7, 209, 0);
+}
+#blue{
+background-color: blue;
+}
+#yellow{
+    background-color: rgb(255, 255, 0);
+}
+
+
+.laps {
+    margin-top: 10px;
+}
+
+.laps ul {
+    padding: 0;
+}
+
+.laps li {
+    list-style: none;
+    background-color: black;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 1em;
+}
